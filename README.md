@@ -9,6 +9,7 @@ dos integrantes). **Trabalhos entregues após essa data, cópias totais ou parci
 
 
 A empresa *"ABC"* possui um escritório em Belo Horizonte e acessa serviços de servidores em um datacenter de Madri. O projeto de rede que deve ser implementado está descrito abaixo:
+
 ------
 
 _Em Belo Horizonte a empresa ocupa um prédio de 8 andares. A distribuição dos setores pelos andares é feita da seguinte maneira:_
@@ -21,6 +22,7 @@ _Em Belo Horizonte a empresa ocupa um prédio de 8 andares. A distribuição dos
 **5º ANDAR:** TI | Logística
 **6º ANDAR:** Diretoria
 **7º ANDAR:** Datacenter
+
 ------
 
 _As redes em Belo Horizonte são separadas por VLANs:_
@@ -29,6 +31,7 @@ _As redes em Belo Horizonte são separadas por VLANs:_
 **VLAN 20:** Diretoria (192.168.20.0 /28)
 **VLAN 30:** Rede Corporativa (172.30.0.0 /21)
 **VLAN 40:** Rede Visitantes (10.40.0.0 /18)
+
 ------
 
 
