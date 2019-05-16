@@ -1,16 +1,13 @@
 # Tabalho de infra
 
-| **Trabalho Prático – Infraestrutura de TI**            |
-| Curso: **Análise e Desenvolvimento de Sistemas**       |
-| :--------------------- | -----------------------------:|
-| Valor: **10 pontos**   | Professor: **Carlos Natale**  |
-
-
 ### Trabalho deve ser feito individualmente ou em duplas.
 A ENTREGA DEVE SER FEITA VIA CLASSROOM ATÉ ÀS 23:59 DO DIA 02 DE JUNHO (enviar o arquivo .PKT com o nome
 dos integrantes). **Trabalhos entregues após essa data, cópias totais ou parciais, além de configurações feitas parcial ou integralmente sem a aplicação de comandos (salvo quando necessário) não serão avaliados.**
 
+
 ## CRIAÇÃO DO CENÁRIO:
+
+
 A empresa *"ABC"* possui um escritório em Belo Horizonte e acessa serviços de servidores em um datacenter de Madri. O projeto de rede que deve ser implementado está descrito abaixo:
 ------
 
@@ -34,6 +31,7 @@ _As redes em Belo Horizonte são separadas por VLANs:_
 **VLAN 40:** Rede Visitantes (10.40.0.0 /18)
 ------
 
+
 __Servidores:__
 
 **INTRANET:** 192.168.10.10
@@ -42,10 +40,12 @@ __Servidores:__
 **ARQUIVOS:** 192.168.10.40
 ------
 
+
 __Desktops:__
 
 Deve haver pelo menos **3 computadores** por departamento, todos devem receber IPs via **DHCP**
 ------
+
 
 __Serviços em Madri:__
 
@@ -54,24 +54,32 @@ __Serviços em Madri:__
 **APLICAÇÃO:** 172.10.10.200 /28
 ------
 
+
 __Outras informações__
 
 **WAN:** 201.30.20.0/30
 **REDE BH:** Protocolo **OSPF**
 **REDE MADRI:** Roteamento **estático**
+
+
 ## REGRAS E RESTRIÇÕES:
 ------
 
+
 Todas as redes devem se comunicar, exceto a VLAN 40 que deve ser isolada da rede corporativa.
 
+
 ## REQUISITOS OBRIGATÓRIOS
+
 
 1. Deve haver um switch principal no datacenter (Esse switch deve ser o VTP Server);
 1. Deve haver no mínimo 1 switch por andar (todos configurados como VTP Client);
 1. Deve haver roteamento entre as VLANS 10, 20 e 30.
 1. **A rede de visitantes deve ser distribuída por wireless.**
 
+
 ## OBSERVAÇÕES E INFORMAÇÕES ADICIONAIS
+
 
 - Serão avaliadas as configurações de cada computador, as configurações de cada switch e de suas VLANs, as
 configurações dos roteadores e a organização das redes (a disposição dos elementos na tela e suas respectivas
