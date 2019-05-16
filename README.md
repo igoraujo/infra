@@ -34,19 +34,23 @@ _As redes em Belo Horizonte são separadas por VLANs:_
 
 ------
 
-
 __Servidores:__
+
 
 **INTRANET:** 192.168.10.10
 **DNS:** 192.168.10.20 (configurar serviço)
 **HTTP:** 192.168.10.30 (configurar serviço)
 **ARQUIVOS:** 192.168.10.40
+
+
 ------
 
 
 __Desktops:__
 
 Deve haver pelo menos **3 computadores** por departamento, todos devem receber IPs via **DHCP**
+
+
 ------
 
 
@@ -55,6 +59,8 @@ __Serviços em Madri:__
 **EMAIL:** 172.10.10.100 /28
 **BD:** 172.10.10.150 /28
 **APLICAÇÃO:** 172.10.10.200 /28
+
+
 ------
 
 
@@ -64,8 +70,9 @@ __Outras informações__
 **REDE BH:** Protocolo **OSPF**
 **REDE MADRI:** Roteamento **estático**
 
-
 ## REGRAS E RESTRIÇÕES:
+
+
 ------
 
 
